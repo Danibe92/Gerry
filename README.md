@@ -5,6 +5,5 @@ installa le librerie con ''pip install requirements.txt''
 "cd riconoscimento
 <br>
 'git clone "https://github.com/pritishmishra703/WakeWordDetection.git'
-</br>
 e fai partire
 alexe.py
