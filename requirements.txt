@@ -1,5 +1,4 @@
 fakeyou==1.2.5
-intel_tensorflow==2.9.1
 librosa==0.10.0.post2
 matplotlib==3.7.2
 nltk==3.7
