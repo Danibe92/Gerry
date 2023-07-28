@@ -18,8 +18,8 @@ from platform import system
 username = "DaniBe91"
 password = "VivaGerryfake"
 tts = Talk(username, password)
-driver=load_session("./script/chromedriver.exe")
-driverm=music_driver("./script/chromedriver.exe")
+driver=load_session("./chromedriver.exe")
+driverm=music_driver("./chromedriver.exe")
 fs = 44100
 seconds = 2
 filename = "prediction.wav"
