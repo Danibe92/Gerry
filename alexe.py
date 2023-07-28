@@ -23,7 +23,7 @@ driverm=music_driver("./script/chromedriver.exe")
 fs = 44100
 seconds = 2
 filename = "prediction.wav"
-model2 = load_model("riconoscimento/saved_model/WWD.h5")
+model2 = load_model("model/WWD.h5")
 is_linux=system() == 'Linux'
 is_android = system() == 'Android'
 song_queue = Queue()
