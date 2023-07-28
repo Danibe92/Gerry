@@ -6,7 +6,6 @@ installa le librerie con
 `pip install -r requirements.txt`
 installa manualemente questo: 
 `impot nltk
-<br>
 nltk.download('punkt')`
 Se mancano qualche librerie boo provate a dirmi perchè forse ho sbagliato a creare il file
 ## Se vuoi ho creato il modello di riconoscimento vocale cosi perchè il mio non andava
