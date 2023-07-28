@@ -6,6 +6,7 @@ installa le librerie con
 `pip install requirements.txt`
 ## Se vuoi ho creato il modello di riconoscimento vocale cosi perchè il mio non andava
 <br>
+
 `mkdir riconoscimento`
 <br>
 `cd riconoscimento`
