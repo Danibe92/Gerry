@@ -9,7 +9,7 @@ from script.all import load,generate_response
 from script.blu import connect_to_device
 from script.scroccogpt import load_session,pizzagpt
 from script.musica import youtube_music,music_driver,skippa,quit
-from script.talk import Talk
+from script.talk import Talk  #comando per la voce di Gerry se la vuoi usare
 from pyttsx3 import init
 import librosa
 import threading
@@ -77,13 +77,13 @@ def response():
         youtube_music_thread.start()
     else:
      response = generate_response(text, words, labels, model, data)
-     #5response=None
      if response is None:
         response = pizzagpt(driver, text)
         print(response)
         text2Audio(response)
-        if False:
-         tts.talk(response)
+        #!!!!!!!IMPORTANTE!!!!!!
+        #Se vuoi attivare la voce di Gerry usa questo comando
+        #tts.talk(response)
      elif response=="bluetooth":
         text=text.split("connettiti a ")
         print(connect_to_device("MUSIC SOUND"))
