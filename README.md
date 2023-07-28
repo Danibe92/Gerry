@@ -1,5 +1,6 @@
 # Gerry
 Chat Gpt assistent with the voice of Gerry Scotti
+## Step.1
 installa le librerie con
 <br>
 `pip install requirements.txt
