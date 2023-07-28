@@ -3,7 +3,7 @@ Chat Gpt assistent with the voice of Gerry Scotti
 ## Step.1
 installa le librerie con
 <br>
-`pip install requirements.txt`
+`pip install -r requirements.txt`
 ## Se vuoi ho creato il modello di riconoscimento vocale cosi perchè il mio non andava
 <br>
 
