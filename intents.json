@@ -1,0 +1,35 @@
+{
+  "intents": [
+    {
+      "tag": "saluto",
+      "patterns": ["Ciao", "Buongiorno", "Buonasera", "Salve","HEllo","Hi There"],
+      "responses": ["Ciao!", "Buongiorno!", "Buonasera!", "Salve!","HI"]
+    },
+    {
+      "tag": "addio",
+      "patterns": ["Arrivederci", "Alla prossima", "Ci vediamo", "A presto"],
+      "responses": ["Arrivederci!", "Ci vediamo presto!", "Buona giornata!", "A presto!"]
+    },
+    {
+      "tag": "ringraziamento",
+      "patterns": ["Grazie", "Grazie mille", "Grazie per l'aiuto"],
+      "responses": ["Di nulla!", "Felice di poterti aiutare!", "e' stato un piacere!", "Prego!"]
+    },
+    {
+      "tag": "informazioni",
+      "patterns": ["Chi sei?", "Cosa sei?", "Da dove vieni?" ],
+      "responses": ["Sono un assistente virtuale chiamato Joana!", "Sono Joana, un assistente virtuale."]
+    },
+	{
+      "tag": "bluetooth",
+      "patterns": ["Connettiti a Music Sound"],
+      "responses": ["bluetooth"]
+    },
+	{
+		"tag":"musica",
+	    "patterns":["Metti la canzone","Play the song"],
+	    "responses":["musica"]
+	}
+  ]
+}
+
