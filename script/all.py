@@ -1,4 +1,5 @@
 from nltk import word_tokenize
+#impot nltk
 #nltk.download('punkt')
 import os
 from nltk.stem.lancaster import LancasterStemmer
