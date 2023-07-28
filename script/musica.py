@@ -56,7 +56,7 @@ def music_driver(path):
     chrome_options.add_argument("--disable-blink-features=AutomationControlled")
     chrome_options.add_argument("--disable-usb")
 
-    return webdriver.Chrome(options=chrome_options,executable_path=path)
+    return webdriver.Chrome(options=chrome_options)
 
 def skippa(driver):
     print("skippo")
