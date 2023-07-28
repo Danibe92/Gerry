@@ -22,7 +22,7 @@ def load_session(path):
        chrome_options.add_experimental_option('androidPackage', 'com.android.chrome')
        driver = webdriver.Chrome('./chromedriver', options=chrome_options)
     else:
-      driver = webdriver.Chrome(options=chrome_options,executable_path=path)
+      driver = webdriver.Chrome(options=chrome_options)
     driver.get("https://www.pizzagpt.it/")
     return driver
 def gpt(driver,question):
