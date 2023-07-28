@@ -13,7 +13,7 @@ installa le librerie con
 <br>
 `git clone "https://github.com/pritishmishra703/WakeWordDetection.git`
 <br>
-# Ho poi spostato il modello WWW.h5 in model
+# Ho poi spostato il modello WWD.h5 in model
 
 ## Step.3
 fai partire
